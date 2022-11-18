@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 7</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" href="img/favicon.ico">
+
+</head>
+
+<body>
+
+    <div id="MainDiv">
+        <img src="img/mercado-liebre.png" alt="mercado-liebre-logo" width="200">
+
+        <h1>Registro</h1>
+
+        <form action="">
+            <div class="-item">
+                <label for="II1">Nombre:</label> <!-- II1: Item Input 1 -->
+                <input type="text" name="" id="II1">
+            </div>
+            <div class="-item">
+                <label for="II2">Email:</label>
+                <input type="text" name="" id="II2">
+            </div>
+            <div class="-item">
+                <label for="II3">Contraseña:</label>
+                <input type="text" name="" id="II3">
+            </div>
+            <input type="submit" name="" id="register-button" value="Registrar">
+
+
+
+        </form>
+
+
+
+
+    </div>
+
+
+
+
+</body>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+    body {background-color:#fbbc02;}
+    #MainDiv {
+        background-color: white;
+        width: 500px; height: 450px;
+        margin: auto;
+        top: 50%;
+        transform: translate(0, +35%);
+        border-radius: 25px;
+    }
+    img {
+        display: block;
+        margin-left: auto; margin-right: auto;
+        margin-bottom: 40px;
+    }
+    #MainDiv img, #MainDiv h1, #MainDiv form {transform: translate(0, +70%);}
+    h1 {
+        font-family:'Roboto', sans-serif;
+    }
+
+    form {
+        margin-left: auto; margin-right: auto;
+    }
+
+    form div{
+        margin-bottom: 10px;
+        transform: translateX(25%);
+    }
+
+    form div * {width: 150px;}
+
+    form div label {
+        font-family:'Roboto', sans-serif;
+        font-size: 18px;
+    }
+
+    #register-button {
+        transform: translateX(145%);
+        height: 40px;
+        font-size: 13pt;
+        background-color: blueviolet;
+        color: white;
+        border: rgba(255, 255, 255, 0) 1px solid;
+        border-radius: 5px;
+    }
+
+    #register-button:hover {
+        background-color: rgb(200, 145, 252);
+        border-color: blueviolet;
+        font-size: 15pt;
+        transform: translateX(130%);
+    }
+
+</style>
